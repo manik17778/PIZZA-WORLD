@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Pizza World">
+  <meta name=" robots" content=" noindex, nofollow">
+  <title>Order Page</title>
+  <!-- Linking to Google Fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Mate+SC&family=Sacramento&display=swap" rel="stylesheet">
+  <!-- Linking to the  CSS file -->
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <!-- Header section -->
+  <header class="pizza">
+    <!-- Navigation links -->
+    <div class="links">
+      <a href="homepage.html">Home</a>
+      <a href="order.html">Contact</a>
+      <a href="order.html">Sign In</a>
+    </div>
+    <!-- Logo and site title -->
+    <div class="world">
+      <h1>
+        <img src="./img/img7.jpg" alt="Pizza world">
+        PIZZA WORLD
+      </h1>
+    </div>
+
+    <!-- Heading section -->
+    <div class="heading">
+       <h2>Order Your Pizza</h2>
+    </div>
+  </header>
+
+  <!-- Main content section -->
+  <main class="form-container">
+    <!-- Form grid -->
+    <div class="forms-grid">
+      <div class="form-1">
+        <!-- Form fields -->
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="quantity">Order No.:</label>
+        <input type="number" id="quantity" name="quantity" required>
+
+        <label for="phone">Phone Number:</label>
+        <input type="number" id="phone" name="phone" required>
+
+        <label for="pizza-size">Pizza Size:</label>
+        <select id="pizza-size" name="pizza-size" required>
+          <option value="" selected disabled>Select pizza size</option>
+          <option value="small">Small</option>
+          <option value="medium">Medium</option>
+          <option value="large">Large</option>
+        </select>
+
+        <!-- Toppings checkboxes -->
+        <label>Toppings:</label>
+        <div class="checkbox-group">
+          <input type="checkbox" id="cheese" name="toppings" value="Cheese">
+          <label for="cheese">Cheese</label>
+
+          <input type="checkbox" id="tomato" name="toppings" value="Tomato">
+          <label for="tomato">Tomato</label>
+
+          <input type="checkbox" id="mushrooms" name="toppings" value="Mushrooms">
+          <label for="mushrooms">Mushrooms</label>
+
+          <!-- Add more toppings checkboxes as needed -->
+        </div>
+      </div>
+      <!-- Submit button -->
+      <div class="submit">
+        <button type="submit">Submit Order</button>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer section -->
+  <footer> 
+    <!-- Footer text and links -->
+    <p>Email offer &nbsp; &nbsp;&nbsp;Catering &nbsp;&nbsp; &nbsp; Join Our Team&nbsp; &nbsp; &nbsp; Terms of Use <br>
+      &copy; 2023 copyright Pizza World</p>
+    <!-- Logo image in the footer -->
+    <div class="logo">
+      <img src="./img/img8.png" alt="Image 2">
+    </div>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,1418 @@
+
+
+body {
+  margin: 0; /* Adding margin */
+  padding: 0; /* Adding Padding */    
+}
+
+/*  header styles */
+.pizza {
+  width: 100%; /* Adding height */    
+    height: 5.5em; /* Adding width */    
+    background-color: #ffc100;  /* Adding background color */    
+    padding: 0px;/* Adding Padding */
+    position: relative; /* for adjusting text and image */    
+}
+/* Header link container styles */
+.links {
+  display: flex; /* USing Flex */    
+  
+  align-items: center; /*Aligning items in the centre */    
+}
+
+
+/* Header link including anchor styles */
+
+.links >a {
+  color: #fff; /* Adding color */    
+  text-decoration: none;
+  font-size: 20px; /* Adjusting Font size */    
+  margin-top:1.5em;
+  font-family: 'Mate SC', serif; /* Adding Font family */    
+ margin-left: 57.2em;
+ font-weight: bold; /* Adding font weight */    
+}
+/* anchor styles for adjacent link */
+.links >a+a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+ margin-top:1.5em;
+ font-family: 'Mate SC', serif;
+ margin-left: 2.2em;
+ font-weight: bold;
+}
+/* Pizza world text styling */
+.world {
+  position: absolute;
+  top: -0.938em;
+  left: 6.25em;
+  text-align: center;
+  color: white;
+}
+
+.world > h1 {
+  font-size: 2.75em;
+  font-family: 'Mate SC', serif;
+  font-weight: bold;
+}
+/*  heading 1 styling */
+h1 > img {
+  float: left;
+    max-height: 67px;
+    margin-left: -2em;
+    border-radius: 93%;
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, -15.011);
+    margin-top: -2%;
+}
+/*  navigation styles */
+nav {
+  background-color: white;
+  color: #fff;
+  padding: 1.625em;
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: bolder;
+  display: flex;
+  justify-content:center; /* Space between text */    
+}
+/*  navigation anchor styles */
+nav > a {
+  color:black;
+  text-decoration: none;
+  margin: 12px 0.625em; /* Adjusting spaces around the boxes */    
+font-size: large;
+justify-content: space-evenly;
+font-weight: bold;
+}
+/*  nav boxes styling */
+.nav-box {
+  background-color: #ffc100; /* Box background color */
+  padding: 10px 20px; /* Box padding */
+  margin-left: 2em; /* Space between boxes */
+  border-radius: 8px; /* Rounded corners */
+  background-image: linear-gradient(45deg, #ffc100, #ffa000);
+}
+
+
+
+.nav-box1 {
+  background-color: #ffc100; /* Box background color */
+  padding: 10px 20px; /* Box padding */
+  margin-left: 3em; /* Space between boxes */
+  border-radius: 8px; /* Rounded corners */
+  background-image: linear-gradient(45deg, #ffc100, #ffa000);
+
+}
+nav>.or>p {
+margin-left: 79%;
+color:#333;
+
+font-style: italic;
+}
+/* navigation box anchor styling */
+nav > .nav-box > a {
+  color: white; /* Link text color */
+  text-decoration: none;
+}
+/*  navigation box1 anchor styling */ 
+nav > .nav-box1 > a {
+  color: white; /* Link text color */
+  text-decoration: none;
+}
+
+/* photos styling using Grid */
+.photos {
+display: grid; /* using grid */    
+grid-template-columns: 75% 50%; /* Making columns */    
+grid-template-rows: 33.33% 33.33% 33.33%; /* Making rows*/    
+grid-gap: 1em; /*gap between each other*/    
+max-width: 42em; /* width*/    
+margin-left: 20em; /*adjusting photos by applying left */  
+  margin-top: 1.25em;/*adjusting photos by applying top */    
+position: relative;
+}
+
+/* image container styling using flex */
+.image-container > img {
+display: flex;
+width: 100%;
+height: 100%;
+object-fit: cover; /* to cover the empty space properly*/  
+}
+
+/* styling for first child */
+.image-container:nth-child(1) {
+grid-row: span 2; 
+}
+  
+/* styling for second child */
+.image-container:nth-child(2) {
+grid-column: 2; 
+}
+ /* styling for third child */ 
+.image-container:nth-child(3){
+grid-column: 2;
+grid-row: 2; 
+}
+
+/*  Figure text styles */
+.text > p{
+  position: absolute;
+  bottom: 28%; /*adjusting text by applying bottom */  
+  left: 54%;/*adjusting text by applying left */  
+  width: 100%;
+  color: #ece9e9;
+  padding: 5px; /*adding padding*/  
+  font-size: 31px; /*adjusting font size */  
+  text-align: left;
+  font-family: 'Bungee Spice', cursive; /*adding font family */  
+}
+
+
+ 
+.text>p+p{
+  position: absolute;
+  bottom: 29%;
+  left: 13px;
+  width: 100%;
+  color: #ece9e9;
+  padding: 5px;
+  font-size: 28px;
+  text-align: left;
+  font-family: 'Mate SC', serif;
+  font-weight: bold;
+}
+
+
+.text2 > p{
+  position: absolute;
+  bottom: 92%;
+  left: 522px;
+  width: 100%;
+  color:#fff;
+  padding: 5px;
+  font-size: 25px;
+  text-align: left;
+  font-family:'Mate SC';
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /*adding text shadow to make it more impressive*/  
+}
+
+
+/* Figure image styling */
+
+.fig>img {
+  display: grid;  /*Using grid */  
+  grid-template-columns: 74%;   /*Using grid column */  
+  grid-template-rows: 29.33%;  /*Using grid row */  
+  grid-gap: 1em;  /*gap between each row and column */  
+  width: 54em;  /*width for column and row */  
+ height: 21em; /*width for column and row*/  
+  margin-left: 20em;
+  margin-top: -13.75em;
+  position: absolute;
+
+}
+
+/* figure text styling */
+ .fig> .text4 > p {
+    position: absolute;
+    top: 739px;
+    left: 9.5em;
+    width: auto;
+    color: white;
+    padding: 5px;
+    font-size: 35px;
+    text-align: left;
+    font-family: 'Sans serif ', cursive;
+    font-weight: lighter;
+  }
+
+  /*  text4 styling */
+.fig>.text4>p+p {
+ margin-left: -1.9em;
+  margin-top: 4em;
+  color:#ffa000;  /*Adding color to the text */  
+font-size: 45px;
+text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+font-weight: bold;  /* making the size of the font bigger */  
+display: flex;
+font-family:cursive;
+}
+
+/*  canada logo styling */
+
+.canada>img{
+  
+  width: 9em;
+    height: 6em;
+    margin-left: 41em;
+    margin-top: 41.25em;
+    position: absolute;
+}
+/*  additional text styling */
+.text5>p{
+  margin-top: 38.25em;
+    margin-left: 19em;
+    font-family: sans-serif;
+    color: red;
+    font-weight: bolder;
+    font-size: large;
+    text-transform: capitalize;  /*transforming the lowercase to uppercase text */  
+
+}
+/*  text5 styling */
+.text5>p+p{
+  margin-top: 1.25em;
+  margin-left: 31em;
+  font-family: sans-serif;
+  color: #333;
+  
+  font-size: 12px;
+}
+
+/* text5 styling */
+.text5>p+p+p{
+  margin-top: -4.58em;
+    margin-left: 45em;
+    font-family: sans-serif;
+    color: red;
+    font-weight: bolder;
+    font-size: large;
+    text-transform: capitalize;
+  
+}
+
+.text5>p+p+p+p{
+  margin-top: 0.8em;
+  margin-left: 70em;
+  font-family: sans-serif;
+  color: #333;
+   font-size: 12px;
+   
+  }
+
+/*  figure class styling */
+.figure >img{ 
+  width: 54em;
+  height: 21em;
+  margin-left: 20em;
+  margin-top: 9.25em;
+  position: absolute;}
+ 
+.figure >p{
+
+  position: absolute;
+  top: 42em;
+  left: 28.5em;
+  width: 12em;
+  color: #ffa000;
+  padding: 5px;
+  font-size: 27px;
+  text-align: left;
+  font-family: 'Sans serif ', cursive;
+  font-weight: bold;
+  
+}
+
+.figure >p+p{
+
+  position: absolute;
+  top: 50em;
+  left: 32.5em;
+  width: 9em;
+  color: white;
+  padding: 5px;
+  font-size: 24px;
+  text-align: left;
+  font-family: 'Sans serif ', cursive;
+  font-weight: lighter;
+}
+
+/*  footer styling */
+  footer {
+    background-color:#ffa000;
+    color: #fff;
+    padding: 1px;
+    text-align: center;
+    margin-top: 8%;
+  }
+  footer>p {
+    Color:white;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 2em;
+    margin-left: 0em;
+    font-family: 'Mate SC', serif;
+padding:10px;
+  }
+/*  facebook twitter instagram logo styling */
+  .logo>img{
+background-color: #ffa000;
+margin-top: -2em;
+margin-left: 0em;
+width:8em;
+height:5em;
+
+  }
+
+
+  /* CSS Styling for order page */
+  
+ 
+/* Heading styles */
+.heading > h2 {
+  margin-left: 560px;
+  margin-top: 1.5em;
+  font-size: 43px;
+  color: #ffa000;
+  font-family: 'Mate SC', serif;
+  font-weight: normal;
+}
+
+/* Form container styles */
+.form-container {
+  display: flex;
+  justify-content: center;
+}
+
+/* Forms grid styles */
+.forms-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  max-width: 1000px;
+  margin: 70px auto;
+  margin-left: 30em;
+  margin-top: 7em;
+}
+
+/* Form 1 label styles */
+.form-1 label {
+  font-weight: bold;
+}
+
+/* Form 1 input styles */
+.form-1 input[type="text"],
+.form-1 input[type="email"],
+.form-1 input[type="number"],
+.form-1 select {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Form 1 checkbox group styles */
+.form-1 .checkbox-group {
+  margin-bottom: 15px;
+}
+
+/* Form 1 checkbox group label styles */
+.form-1 .checkbox-group label {
+  display: block;
+}
+
+/* Form 1 checkbox input styles */
+.form-1 .checkbox-group input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+/* Submit button styles */
+.submit {
+  text-align: center;
+  margin-top: 20px; /* Add some top margin to create space between the form and the button */
+}
+
+/* Submit button inside the submit class styles */
+.submit > button {
+  padding: 12px 20px;
+  background-color: #ffa000;
+  color: #fff;
+  border: none;
+  border-radius: 17px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 46%;
+  margin-top: 36em;
+  margin-left: -65em;
+}
+
+/* Submit button hover effect styles */
+.submit > button:hover {
+  background-color: #ffa000;
+}
+
+/* Footer styling */
+footer {
+  background-color:#ffa000;
+  color: #fff;
+  padding: 1px;
+  text-align: center;
+  margin-top: 8%;
+  width:auto;
+}
+footer>p {
+  Color:white;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 2em;
+  margin-left: 0em;
+  font-family: 'Mate SC', serif;
+  padding:10px; 
+}
+/*  facebook twitter instagram logo styling */
+.logo>img{
+background-color: #ffa000;
+margin-top: -2em;
+margin-left: 0em;
+width:8em;
+height:5em;
+
+}
+
+
+
+
+
+/*  CSS STYLINGS TO MAKE A SITE RESPONSIVE  */
+
+
+
+
+
+
+
+
+/* Media query for phones with 768px width */
+@media (max-width: 900px)  {
+ 
+  .pizza {
+    width: 362%;
+    height: 5.5em;
+    background-color: #ffc100;
+    padding: 0px;
+    position: relative;
+  }
+  /* Header link container styles */
+  
+  
+  .links {
+    align-items: center;
+    margin-top: auto;
+    margin-left: -5em;
+  }
+
+  .links >a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 1.5em;
+    font-family: 'Mate SC', serif;
+    margin-left: 126.2em;
+    font-weight: bold;
+  }
+  /* anchor styles for adjacent link */
+  .links >a+a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 1.5em;
+    font-family: 'Mate SC', serif;
+    margin-left: 2.2em;
+    font-weight: bold;
+  }
+  /* Pizza world text styling */
+  .world {
+    position: absolute;
+    top: -0.938em;
+    left: 6.25em;
+    text-align: center;
+    color: white;
+  }
+  
+  .world > h1 {
+    font-size: 2.75em;
+    font-family: 'Mate SC', serif;
+    font-weight: bold;
+  }
+  /*  heading 1 styling */
+  h1 > img {
+    float: left;
+      max-height: 67px;
+      margin-left: -2em;
+      border-radius: 93%;
+      box-shadow: 0px 0px 1px rgba(0, 0, 0, -15.011);
+      margin-top: -2%;
+  }
+  /*  navigation styles */
+  nav {
+    background-color: white;
+    color: #fff;
+    padding: 2.625em;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bolder;
+    display: flex;
+    justify-content:center; /* Space between text */    
+  }
+  /*  navigation anchor styles */
+  nav > a {
+    color: black;
+    text-decoration: none;
+    margin: 3px 46.625em;
+    font-size: large;
+    justify-content: space-evenly;
+    font-weight: bold;
+  margin-left: 128em;
+ max-width: fit-content;}
+  /*  nav boxes styling */
+  .nav-box {
+    background-color: #ffc100;
+    padding: 10px 20px;
+    margin-left: -32em;
+    border-radius: 8px;
+    background-image: linear-gradient(45deg, #ffc100, #ffa000);
+}
+  
+  
+  
+  
+  .nav-box1 {
+    background-color: #ffc100; /* Box background color */
+    padding: 10px 20px; /* Box padding */
+    margin-left: 3em; /* Space between boxes */
+    border-radius: 8px; /* Rounded corners */
+    background-image: linear-gradient(45deg, #ffc100, #ffa000);
+  
+  }
+
+  nav>.or>p { 
+  margin-left: 79%;
+  color:#333;
+  font-style: italic; 
+ }
+  /* navigation box anchor styling */
+  nav > .nav-box > a {
+    color: white; /* Link text color */
+    text-decoration: none;
+  }
+  /*  navigation box1 anchor styling */ 
+  nav > .nav-box1 > a {
+    color: white; /* Link text color */
+    text-decoration: none;
+  }
+
+  /* photos styling using Grid */
+  
+  .photos {
+    display: grid;
+    grid-template-columns: 375% 167%;
+    grid-template-rows: 31.33% 27.33% 31.33%;
+    grid-gap: 1em;
+    max-width: 28em;
+    margin-left: 9em;
+    margin-top: 1.25em;
+    position: relative;
+}
+  
+  
+  /* image container styling using flex */
+  .image-container > img {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  /* styling for first child */
+  .image-container:nth-child(1) {
+  grid-row: span 2; 
+  }
+    
+  /* styling for second child */
+  .image-container:nth-child(2) {
+  grid-column: 2; 
+  }
+   /* styling for third child */ 
+  .image-container:nth-child(3){
+  grid-column: 2;
+  grid-row: 2; 
+  }
+  
+  /*  Figure text styles */
+  .text > p{
+    position: absolute;
+    bottom: 40%;
+    left: 301%;
+    width: 100%;
+    color: #ece9e9;
+    padding: 5px;
+    font-size: 61px;
+    text-align: left;
+    font-family: 'Bungee Spice', cursive
+  }
+  
+  
+   
+  .text>p+p{
+    position: absolute;
+    bottom: 40%;
+    left: 44px;
+    width: 100%;
+    color: #ece9e9;
+    padding: 5px;
+    font-size: 46px;
+    text-align: left;
+    font-family: 'Mate SC', serif;
+    font-weight: bold;
+  }
+  
+  
+  .text2 > p{
+    position: absolute;
+    bottom: 95%;
+    left: 40.5em;
+    width: 100%;
+    color: #fff;
+    padding: 5px;
+    font-size: 43px;
+    text-align: left;
+    font-family: 'Mate SC';
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  
+  /* Figure image styling */
+  
+  .fig>img {
+    display: grid;
+    grid-template-columns: 74%;
+    grid-template-rows: 29.33%;
+    grid-gap: 1em;
+    width: 153em;
+    height: 50em;
+    margin-left: 9em;
+    margin-top: -58.75em;
+    position: absolute;
+}
+
+  
+  
+  /* figure text styling */
+   .fig> .text4 > p {
+    position: absolute;
+    top: 44em;
+    left: 8.5em;
+    width: auto;
+    color: white;
+    padding: 5px;
+    font-size: 42px;
+    text-align: left;
+    font-family: 'Sans serif ', cursive;
+    font-weight: lighter;
+}
+    
+  
+    /*  text4 styling */
+  .fig>.text4>p+p {
+    margin-left: -0.9em;
+    margin-top: 5em;
+    color: #ffa000;
+    font-size: 45px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-weight: bold;
+    display: flex;
+    font-family: cursive;
+}
+  
+  
+  /*  canada logo styling */
+  
+  .canada>img{
+    width: 21em;
+    height: 15em;
+    margin-left: 68em;
+    margin-top: 46.25em;
+    position: absolute;
+  }
+  /*  additional text styling */
+  .text5>p{
+    margin-top: 22.25em;
+    margin-left: 5em;
+    font-family: sans-serif;
+    color: red;
+    font-weight: bolder;
+    font-size: 35px;
+    text-transform: capitalize;
+  
+  }
+  /*  text5 styling */
+  .text5>p+p{
+    margin-top: 1.25em;
+    margin-left: 10em;
+    font-family: sans-serif;
+    color: #333;
+    font-size: 22px;  
+}
+
+  
+  /* text5 styling */
+  .text5>p+p+p{
+    margin-top: -4.58em;
+    margin-left: 51em;
+    font-family: sans-serif;
+    color: red;
+    font-weight: bolder;
+    font-size: 32px;
+    text-transform: capitalize;
+    width:22em;
+  }
+  
+  .text5>p+p+p+p{
+    margin-top: 0.8em;
+    margin-left: 73em;
+    font-family: sans-serif;
+    color: #333;
+    font-size: 23px;
+    width:22em;
+    }
+  
+  /*  figure class styling */
+  .figure >img{ 
+    width: 153em;
+    height: 39em;
+    margin-left: 9em;
+    margin-top: -2.75em;
+    position: absolute;}
+
+  .figure >p{
+    position: absolute;
+    top: 68em;
+    left: 46.5em;
+    width: 12em;
+    color: #ffa000;
+    padding: 5px;
+    font-size: 41px;
+    text-align: left;
+    font-family: 'Sans serif ', cursive;
+    font-weight: bold; 
+  }
+  
+  .figure >p+p{
+    position: absolute;
+    top: 94em;
+    left: 62.5em;
+    width: 9em;
+    color: white;
+    padding: 5px;
+    font-size: 31px;
+    text-align: left;
+    font-family: 'Sans serif ', cursive;
+    font-weight: lighter;
+  }
+  
+  /*  footer styling */
+    footer {
+      background-color: #ffa000;
+      color: #fff;
+      padding: 1px;
+      text-align: center;
+      margin-top:16%;
+    width:174em; }
+
+    footer>p {
+      Color: white;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 2em;
+    margin-left: -8em;
+    font-family: 'Mate SC', serif;
+    padding: 10px;
+    }
+  /*  facebook twitter instagram logo styling */
+    .logo>img{
+      background-color: #ffa000;
+      margin-top: -2em;
+      margin-left: -23em;
+      width: 14em;
+      height: 9em
+  
+    }
+  
+  
+    /* CSS Styling for order page */
+    
+   
+  /* Heading styles */
+  .heading > h2 {
+    margin-left: 13em;
+    margin-top: 2.5em;
+    font-size: 79px;
+    color: #ffa000;
+    font-family: 'Mate SC', serif;
+    font-weight: normal;
+  }
+  
+  /* Form container styles */
+  .form-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* Forms grid styles */
+  .forms-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    max-width: 1008px;
+    margin: 70px auto;
+    margin-left: 139em;
+    margin-top: 24em;
+}
+  
+  
+  /* Form 1 label styles */
+  .form-1 label {
+    font-weight: bold;
+  }
+  
+  /* Form 1 input styles */
+  .form-1 input[type="text"],
+  .form-1 input[type="email"],
+  .form-1 input[type="number"],
+  .form-1 select {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  /* Form 1 checkbox group styles */
+  .form-1 .checkbox-group {
+    margin-bottom: 15px;
+  }
+  
+  /* Form 1 checkbox group label styles */
+  .form-1 .checkbox-group label {
+    display: block;
+  }
+  
+  /* Form 1 checkbox input styles */
+  .form-1 .checkbox-group input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  /* Submit button styles */
+  .submit {
+    text-align: center;
+    margin-top: 20px; /* Add some top margin to create space between the form and the button */
+  }
+  
+  /* Submit button inside the submit class styles */
+  .submit > button {
+    padding: 23px 159px;
+    background-color: #ffa000;
+    color: #fff;
+    border: none;
+    border-radius: 65px;
+    font-size: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 5%;
+    margin-top: 22em;
+    margin-left: -10em;
+  }
+  
+  /* Submit button hover effect styles */
+  .submit > button:hover {
+    background-color: #ffa000;
+  }
+  
+}
+
+
+
+
+/* Styling for smaller screens */
+
+@media (max-width: 500px)  {
+  
+  .pizza {
+    width: 177em;
+    background-color: #ffc100;
+    padding: 0px;
+    position: relative;
+  }
+  /* Header link container styles */
+  
+  
+  .links {
+    align-items: center;
+    margin-top: auto;
+    margin-left: -84em;
+  }
+
+  .links >a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 1.5em;
+    font-family: 'Mate SC', serif;
+    margin-left: 126.2em;
+    font-weight: bold;
+  }
+  /* anchor styles for adjacent link */
+  .links >a+a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 1.5em;
+    font-family: 'Mate SC', serif;
+    margin-left: 2.2em;
+    font-weight: bold;
+  }
+  /* Pizza world text styling */
+  .world {
+    position: absolute;
+    top: -0.938em;
+    left: 6.25em;
+    text-align: center;
+    color: white;
+  }
+  
+  .world > h1 {
+    font-size: 2.75em;
+    font-family: 'Mate SC', serif;
+    font-weight: bold;
+  }
+  /*  heading 1 styling */
+  h1 > img {
+    float: left;
+      max-height: 67px;
+      margin-left: -2em;
+      border-radius: 93%;
+      box-shadow: 0px 0px 1px rgba(0, 0, 0, -15.011);
+      margin-top: -2%;
+  }
+  /*  navigation styles */
+  nav {
+    background-color: white;
+    color: #fff;
+    padding: 2.625em;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;}
+    
+  /*  navigation anchor styles */
+  nav > a {
+    color: black;
+    text-decoration: none;
+    margin: -4px 41.625em;
+    font-size: large;
+    justify-content: space-evenly;
+    font-weight: bold;
+    margin-left: 62em;
+    max-width: fit-content;
+}
+  /*  nav boxes styling */
+  .nav-box {
+    background-color: #ffc100;
+    padding: 10px 20px;
+    margin-left: -32em;
+    border-radius: 8px;
+    background-image: linear-gradient(45deg, #ffc100, #ffa000);
+}
+  
+  
+  
+  
+  .nav-box1 {
+    background-color: #ffc100; /* Box background color */
+    padding: 10px 20px; /* Box padding */
+    margin-left: 3em; /* Space between boxes */
+    border-radius: 8px; /* Rounded corners */
+    background-image: linear-gradient(45deg, #ffc100, #ffa000);
+  
+  }
+
+  nav>.or>p { 
+  margin-left: 79%;
+  color:#333;
+  font-style: italic; 
+ }
+  /* navigation box anchor styling */
+  nav > .nav-box > a {
+    color: white; /* Link text color */
+    text-decoration: none;
+  }
+  /*  navigation box1 anchor styling */ 
+  nav > .nav-box1 > a {
+    color: white; /* Link text color */
+    text-decoration: none;
+  }
+
+  /* photos styling using Grid */
+  
+  .photos {
+    display: grid;
+    grid-template-columns: 368% 167%;
+    grid-template-rows: 21.33% 26.33% 32.33%;
+    grid-gap: 1em;
+    max-width: 31em;
+    margin-left: 9em;
+    margin-top: 1.25em;
+    position: relative;
+  }
+  
+  
+  /* image container styling using flex */
+  .image-container > img {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  /* styling for first child */
+  .image-container:nth-child(1) {
+  grid-row: span 2; 
+  }
+    
+  /* styling for second child */
+  .image-container:nth-child(2) {
+  grid-column: 2; 
+  }
+   /* styling for third child */ 
+  .image-container:nth-child(3){
+  grid-column: 2;
+  grid-row: 2; 
+  }
+  
+  /*  Figure text styles */
+  .text > p{
+    position: absolute;
+    bottom: 49%;
+    left: 301%;
+    width: 100%;
+    color: #ece9e9;
+    padding: 5px;
+    font-size: 38px;
+    text-align: left;
+    font-family: 'Bungee Spice', cursive;
+  }
+  
+  
+   
+  .text>p+p{
+    position: absolute;
+    bottom: 50%;
+    left: 44px;
+    width: 100%;
+    color: #ece9e9;
+    padding: 5px;
+    font-size: 28px;
+    text-align: left;
+    font-family: 'Mate SC', serif;
+    font-weight: bold;
+  }
+  
+  
+  .text2 > p{
+    position: absolute;
+    bottom: 95%;
+    left: 46.5em;
+    width: 100%;
+    color: #fff;
+    padding: 5px;
+    font-size: 19px;
+    text-align: left;
+    font-family: 'Mate SC';
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);}
+  
+  
+  /* Figure image styling */
+  
+  .fig>img {
+   
+    display: grid;
+    grid-template-columns: 74%;
+    grid-template-rows: 29.33%;
+    grid-gap: 1em;
+    width: 78em;
+    height: 37em;
+    margin-left: 9em;
+    margin-top: -37.75em;
+    position: absolute;
+  }
+
+  
+  
+  /* figure text styling */
+   .fig> .text4 > p {
+    position: absolute;
+    top: 43em;
+    left: 8.5em;
+    width: auto;
+    color: white;
+    padding: 5px;
+    font-size: 22px;
+    text-align: left;
+    font-family: 'Sans serif ', cursive;
+    font-weight: lighter;
+
+}
+    
+  
+    /*  text4 styling */
+  .fig>.text4>p+p {
+    margin-left: -3.9em;
+    margin-top: -16em;
+    color: #ffa000;
+    font-size: 43px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-weight: bold;
+    display: flex;
+    font-family: cursive;
+}
+  
+  
+  /*  canada logo styling */
+  
+  .canada>img{
+    width: 15em;
+    height: 11em;
+    margin-left: 36em;
+    margin-top: 46.25em;
+    position: absolute;
+  }
+  /*  additional text styling */
+  .text5>p{
+    margin-top: 34.25em;
+    margin-left: 6em;
+    font-family: sans-serif;
+    color: red;
+    font-weight: bolder;
+    font-size: 23px;
+    
+  
+  }
+  /*  text5 styling */
+  .text5>p+p{
+    margin-top: 1.25em;
+    margin-left: 9em;
+    font-family: sans-serif;
+    color: #333;
+    font-size: 18px;
+}
+
+  
+  /* text5 styling */
+  .text5>p+p+p{
+    margin-top: -7.58em;
+    margin-left: 37em;
+    font-family: sans-serif;
+    color: red;
+    font-weight: bolder;
+    font-size: 23px;
+    text-transform: capitalize;
+    width: 22em;
+  }
+  
+  .text5>p+p+p+p{
+    margin-top: 0.8em;
+    margin-left: 43em;
+    font-family: sans-serif;
+    color: #333;
+    font-size: 20px;
+    width: 22em;
+    }
+  
+  /*  figure class styling */
+  .figure >img{ 
+    width: 78em;
+    height: 34em;
+    margin-left: 9em;
+    margin-top: 2.25em;
+    position: absolute;
+}
+
+  .figure >p{
+    position: absolute;
+    top: 68em;
+    left: 39.5em;
+    width: 12em;
+    color: #ffa000;
+    padding: 5px;
+    font-size: 24px;
+    text-align: left;
+    font-family: 'Sans serif ', cursive;
+    font-weight: bold;
+  }
+  
+  .figure >p+p{
+    position: absolute;
+    top: 90em;
+    left: 50.5em;
+    width: 9em;
+    color: white;
+    padding: 5px;
+    font-size: 19px;
+    text-align: left;
+    font-family: 'Sans serif ', cursive;
+    font-weight: lighter;
+  }
+  
+  /*  footer styling */
+    footer {
+      background-color: #ffa000;
+      color: #fff;
+      padding: 1px;
+      text-align: center;
+      margin-top: 16%;
+      width: 174em;}
+
+
+    footer>p {
+      Color: white;
+      font-size: 36px;
+      font-weight: bold;
+      text-align: center;
+      margin-top: 2em;
+      margin-left: -36em;
+      font-family: 'Mate SC', serif;
+      padding: 10px;
+    }
+  /*  facebook twitter instagram logo styling */
+    .logo>img{
+      background-color: #ffa000;
+      margin-top: -2em;
+      margin-left: -85em;
+      width: 14em;
+      height: 9em;
+  
+    }
+  
+  
+    /* CSS Styling for order page */
+    
+   
+  /* Heading styles */
+  .heading > h2 {
+    margin-left: 13em;
+    margin-top: 2.5em;
+    font-size: 79px;
+    color: #ffa000;
+    font-family: 'Mate SC', serif;
+    font-weight: normal;
+  }
+  
+  /* Form container styles */
+  .form-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* Forms grid styles */
+  .forms-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    max-width: 1008px;
+    margin: 70px auto;
+    margin-left: 139em;
+    margin-top: 24em;
+}
+  
+  
+  /* Form 1 label styles */
+  .form-1 label {
+    font-weight: bold;
+  }
+  
+  /* Form 1 input styles */
+  .form-1 input[type="text"],
+  .form-1 input[type="email"],
+  .form-1 input[type="number"],
+  .form-1 select {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  /* Form 1 checkbox group styles */
+  .form-1 .checkbox-group {
+    margin-bottom: 15px;
+  }
+  
+  /* Form 1 checkbox group label styles */
+  .form-1 .checkbox-group label {
+    display: block;
+  }
+  
+  /* Form 1 checkbox input styles */
+  .form-1 .checkbox-group input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  /* Submit button styles */
+  .submit {
+    text-align: center;
+    margin-top: 20px; /* Add some top margin to create space between the form and the button */
+  }
+  
+  /* Submit button inside the submit class styles */
+  .submit > button {
+    padding: 23px 159px;
+    background-color: #ffa000;
+    color: #fff;
+    border: none;
+    border-radius: 65px;
+    font-size: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 5%;
+    margin-top: 22em;
+    margin-left: -10em;
+  }
+  
+  /* Submit button hover effect styles */
+  .submit > button:hover {
+    background-color: #ffa000;
+  }
+  
+}
+
+
+/*  css styling for larger screens */
+
+@media (min-width: 900px) and (max-width: 1023px) {
+  .pizza {
+    width:98em;
+  }
+  nav{
+    margin-left:25em;
+    
+    
+  }
+  footer{
+    width:98em;
+  }
+}
